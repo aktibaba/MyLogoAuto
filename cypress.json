@@ -1,10 +1,4 @@
 {
-    "reporter": "cypress-mochawesome-reporter",
-    "projectId": "68r32a",
-  "reporterOptions": {
-    "reportDir": "cypress/reports",
-    "charts": true,
-    "reportPageTitle": "My Test Suite",
-    "embeddedScreenshots": true,
-    "inlineAssets": true
-    }}
+    "projectId": "68r32a"
+  
+    }
