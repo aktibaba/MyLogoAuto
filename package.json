@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npx cypress run --record --key 77a951f3-e342-4620-8207-f81487e0f446",
     "runHeadless": "./node_modules/.bin/cypress run --headless"
   },
   "author": "akti",

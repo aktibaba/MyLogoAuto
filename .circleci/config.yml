@@ -20,7 +20,7 @@ workflows:
           executor: cypress/browsers-chrome69
           record: true
           parallel: true
-          parallelism: 2
+          parallelism: 3
           group: smoke tests
           browser: chrome
           spec: cypress/integration
