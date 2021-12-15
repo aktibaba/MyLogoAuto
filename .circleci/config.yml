@@ -6,21 +6,9 @@ workflows:
     jobs:
       - cypress/install
       - cypress/run:
-          name: 4 machines
           requires:
             - cypress/install
           record: true
           parallel: true
-          parallelism: 4
-          group: 4 machines
-      - cypress/run:
-          name: Chrome
-          requires:
-            - cypress/install
-          executor: cypress/browsers-chrome69
-          record: true
-          parallel: true
-          parallelism: 3
-          group: smoke tests
-          browser: chrome
-          spec: cypress/integration
+          parallelism: 2
+          group: 2 machines
